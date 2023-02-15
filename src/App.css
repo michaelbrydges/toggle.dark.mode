@@ -132,7 +132,7 @@ html {
   .text--container {
     display: block;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 22px;
   }
 
   .heading {
@@ -141,14 +141,14 @@ html {
     font-weight: 500;
   }
 }
-  @media only screen and (min-height: 213px) {
+  @media only screen and (min-height: 263px) {
 
   .circle--container {
     display: block;
     display: flex;
     justify-content: center;
     position: relative;
-    margin-bottom: 20px;
+    margin: 15px 0px 35px 0px;
   }
 
   .circle--light {
@@ -165,22 +165,6 @@ html {
     transform: translateX(5%);
     transform: translateY(-5%);
     transition: 0.35s;
-  }
-}
-
-
-@media only screen and (min-height: 253px) {
-
-  .text--container {
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-  .heading {
-    display: block;
-    font-size: 18px;
-    font-weight: 500;
   }
 }
 
@@ -229,10 +213,11 @@ html {
 
   .circle--container {
     margin-bottom: 6.5vh;
+    margin-top: 0px;
   }
 
   .text--container {
-    margin-bottom: 4.5vh;
+    margin-bottom: 4.75vh;
   }
 
 }
@@ -252,7 +237,7 @@ html {
   }
 
   .decoration--container {
-    margin-top: 40px;
+    margin-top: 47.5px;
   }
 
 }

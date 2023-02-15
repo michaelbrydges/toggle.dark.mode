@@ -18,6 +18,8 @@
 html {
   position: relative;
   min-height: 100%;
+  min-height: -webkit-fill-available;
+  background-color: #251F28;
 }
 
 .layout--container {
@@ -25,8 +27,8 @@ html {
   justify-content: center;
   align-items: center;
   position: absolute;
+  height: 100%;
   width: 100%;
-  height: calc(100vh - calc(100vh - 100%));
   transition: 0.35s;
 }
 

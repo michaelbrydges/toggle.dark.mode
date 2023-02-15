@@ -11,6 +11,7 @@ export default function App() {
 
   function toggle() {
     setDarkMode(prevMode => !prevMode)
+    //console.log(window.alert(window.innerHeight))
   }
 
   const darkStyle = {
@@ -38,7 +39,7 @@ export default function App() {
   
   return (  
     <div className="layout--container" style={darkStyle}>
-      <div>
+      <div className="main--container">
         <Circle darkStyle={darkMode}/>
         <Instructions darkStyle={darkMode}/>
         <div className="toggle--container" onClick={toggle}>
@@ -49,8 +50,8 @@ export default function App() {
           <span style={darkStyleTextDark}>Dark</span>
         </div>
         <Decoration darkStyle={darkMode} />
-        <Footer darkStyle={darkMode} />
       </div>
+      <Footer darkStyle={darkMode} />
     </div>
   );
 }

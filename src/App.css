@@ -40,10 +40,6 @@ html {
     display: none;
   }
 
-  .heading {
-    display: none;
-  }
-
   p {
     display: none;
   }
@@ -62,34 +58,7 @@ html {
   }
 
   .footer--container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 20px 20px 10px 20px;
-    width: 100%;
-  }
-
-  .footer--text--skip {
-    color: #74717B;
-  }
-
-  .footer--container > button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    border: none;
-    transition: 0.35s;
-    cursor: pointer;
-  }
-
-  .footer--container > button > span {
-    font-size: 18px;
+    display: none;
   }
 }
 
@@ -127,15 +96,59 @@ html {
     border-radius: 30px;
     transition: 0.35s;
   }
+
+  .footer--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+  }
+
+  .footer--text--skip {
+    color: #74717B;
+  }
+
+  .footer--container > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    transition: 0.35s;
+    cursor: pointer;
+  }
+
+  .footer--container > button > span {
+    font-size: 18px;
+  }
 }
-@media only screen and (min-height: 213px) {
+@media only screen and (min-height: 152px) {
+  .text--container {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .heading {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}
+  @media only screen and (min-height: 213px) {
 
   .circle--container {
     display: block;
     display: flex;
     justify-content: center;
     position: relative;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .circle--light {
@@ -156,23 +169,26 @@ html {
 }
 
 
-@media only screen and (min-height: 273px) {
+@media only screen and (min-height: 253px) {
 
   .text--container {
     display: block;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
 
   .heading {
     display: block;
     font-size: 18px;
     font-weight: 500;
-    margin-bottom: 15px;
   }
 }
 
 @media only screen and (min-height: 330px) {
+
+  .heading {
+    margin-bottom: 2vh;
+  }
 
   p {
     display: block;
@@ -187,7 +203,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 8.5vh;  
   }
 
   .decoration--container > div {
@@ -207,4 +223,36 @@ html {
     margin: 0px 9px 0px 9px;
     transition: 0.35s;
   }
+}
+
+@media only screen and (min-height: 417px) {
+
+  .circle--container {
+    margin-bottom: 6.5vh;
+  }
+
+  .text--container {
+    margin-bottom: 4.5vh;
+  }
+
+}
+
+@media only screen and (min-height: 600px) {
+
+  .circle--container {
+    margin-bottom: 40px;
+  }
+
+  .heading {
+    margin-bottom: 10px;
+  }
+
+  .text--container {
+    margin-bottom: 30px;
+  }
+
+  .decoration--container {
+    margin-top: 40px;
+  }
+
 }

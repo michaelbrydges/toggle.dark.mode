@@ -11,7 +11,7 @@ export default function App() {
 
   function toggle() {
     setDarkMode(prevMode => !prevMode)
-    //console.log(window.alert(window.innerHeight))
+    console.log(window.alert(window.innerHeight))
   }
 
   const darkStyle = {

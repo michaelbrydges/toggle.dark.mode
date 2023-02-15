@@ -20,7 +20,7 @@ html {
   min-height: 100%;
 }
 
-@media only screen and (min-height: 280px) {
+@media only screen and (min-height: 200px) {
 
   .layout--container {
     display: flex;
@@ -36,7 +36,7 @@ html {
     display: flex;
     justify-content: center;
     position: relative;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 20px 0px;
   }
 
   .circle--light {
@@ -64,9 +64,7 @@ html {
   }
 
   .heading {
-    font-size: 20px;
-    font-weight: 500;
-    margin-bottom: 20px;
+    display: none;
   }
 
   .toggle--container {
@@ -155,8 +153,9 @@ html {
   }
 
   .heading {
-    font-size: 23px;
+    font-size: 20px;
     font-weight: 500;
+    margin-bottom: 20px;
   }
 
   .decoration--container {

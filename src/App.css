@@ -71,7 +71,7 @@ html {
     position: relative;
     z-index: 1;
     height: 35px;
-    width: 185.25px;
+    width: 184px;
     border-radius: 20px;
     padding: 0px 32.5px 0px 32.5px;
     cursor: pointer;
@@ -92,7 +92,7 @@ html {
 
   .slider {
     height: 35px;
-    width: 92.5px;
+    width: 92px;
     border-radius: 30px;
     transition: 0.35s;
   }
